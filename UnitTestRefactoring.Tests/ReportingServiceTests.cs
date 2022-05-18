@@ -7,7 +7,7 @@ using Xunit;
 
 namespace UnitTestRefactoring.Tests
 {
-    public class ReportingServiceTests_Old
+    public class ReportingServiceTests
     {
         private readonly IReportingService _testing;
 
@@ -15,7 +15,7 @@ namespace UnitTestRefactoring.Tests
         private readonly Mock<IUsReportingService> _usReportingServiceMock;
         private readonly Mock<IMainReportingService> _mainReportingServiceMock;
 
-        public ReportingServiceTests_Old()
+        public ReportingServiceTests()
         {
             _euReportingServiceMock = new Mock<IEuReportingService>();
             _usReportingServiceMock = new Mock<IUsReportingService>();
